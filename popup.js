@@ -4,7 +4,7 @@ document.getElementById('setSpeed').addEventListener('click', async () => {
 
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
-    world: 'MAIN', // This is crucial to access the page's JS variables
+    world: 'MAIN', 
     func: (s) => {
       if (window.Runner) {
         Runner.instance_.setSpeed(parseInt(s));
