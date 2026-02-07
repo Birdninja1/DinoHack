@@ -1,1 +1,0 @@
-Runner.instance_.setSpeed(100) -Change the '100' to the speed that you want! (Recommend not over 10K)
